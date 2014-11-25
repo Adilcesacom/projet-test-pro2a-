@@ -1,0 +1,39 @@
+h1, h2 {
+  font-family: 'Poiret One', cursive;
+}
+
+header {
+    font-size
+font-family: 'Poiret One', cursive;
+    Background-color:grey;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+header a {
+    color:white;
+    text-decoration:none
+}
+header li {
+     display:inline-block; 
+     width: 20%;
+    text-align: center;
+    
+}
+
+header a:hover{
+    background-color: rgba(255,255,255,0.2);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.lol {
+    background-color: rgba(255,255,255,0.2);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+/* Sur n'importe quel élémebt html de type block ou inline block o peut mettre un contour (border) une couleur de fond(color background) des marges inférieures et exterieures (margin et padding) 
+
+width :  /* sert a espacé les titres sur le header ./*
