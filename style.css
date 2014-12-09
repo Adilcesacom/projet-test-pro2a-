@@ -1,4 +1,4 @@
-h1, h2 {
+h1, h2, nav {
   font-family: 'Poiret One', cursive;
 }
 
@@ -33,7 +33,28 @@ header a:hover{
     border-radius: 5px;
 }
 
-
-/* Sur n'importe quel élémebt html de type block ou inline block o peut mettre un contour (border) une couleur de fond(color background) des marges inférieures et exterieures (margin et padding) 
+.cercle-competence{
+    width:150px;
+    height:150px;
+    background-color: lightblue;
+    border-radius:50%;
+    margin:50px;
+    overflow: hidden;
+    position:relative; 
+    
+}
+.cercle-competence-niveau{
+    width:100%;
+    background-color: blue;
+    height:75%;
+    position: absolute;
+    bottom:0;
+    transition:all is ease;
+    
+}
+.cercle-competence:hover .cercle-competence-niveau{
+    height:75%;
+}
+/* Sur n'importe quel élément html de type block ou inline block o peut mettre un contour (border) une couleur de fond(color background) des marges inférieures et exterieures (margin et padding) 
 
 width :  /* sert a espacé les titres sur le header ./*
